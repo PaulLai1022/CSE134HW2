@@ -22,7 +22,7 @@
         <img src="Paul.png" alt="Paul's photo" style="width:auto;">
     </picture>
       
-    <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+    <iframe src="https://ucsd.edu/" title="UCSD">
     </iframe>
 
     <audio controls>
@@ -36,6 +36,133 @@
         <source src="Rick Astley - Never Gonna Give You Up (Official Music Video).mp3" type="audio/mpeg">
         Your browser does not support this.
       </video>
+
+      <canvas id="myCanvas" width="300" height="150" style="border:1px solid black"></canvas>
+      <script>
+        const c = document.getElementById("myCanvas");
+        const ctx = c.getContext("2d");
+        ctx.fillStyle = "yellow";
+        ctx.fillRect(50, 50, 100, 50);
+      </script>
+
+    <svg width="100" height="100">
+    <circle cx="25" cy="25" r="20" stroke="red" stroke-width="3" fill="green" />
+    Sorry, not support by svg
+    </svg>
+
+        <label for="Fruits">Choose a viggies/fruit:</label>
+        <select name="Fruits" id="Fruits">
+          <optgroup label="Fruit">
+            <option value="Banana">Banana</option>
+            <option value="Apple">Apple</option>
+          </optgroup>
+          <optgroup label="Veggies">
+            <option value="Tomato">Tomato</option>
+            <option value="onion">Onion</option>
+          </optgroup>
+        </select>
+
+
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+        </div>
+
+        <div>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="js" name="fav_language" value="JS">
+            <label for="javascript">JS</label><br><br>
+            <input type="submit" value="Submit">
+        </div>
+
+        <legend>
+            <fieldset>
+                <p>Your Personal DATA</p>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+            </fieldset>
+        </legend>
+
+
+        <div>
+            <label for="Fruit">Choose your fruit from the list:</label>
+            <input list="Fruits" name="Fruit" id="Fruit">
+            <datalist id="Fruits">
+              <option value="Apple">
+              <option value="Banana">
+              <option value="Mango">
+              <option value="Peach">
+              <option value="Orange">
+            </datalist>
+            <input type="submit">
+        </div>
+          
+
+        <button type="button">Just a Button</button>
+
+        <template>
+            <h2>MyPic</h2>
+            <img src="Paul.png" width="214" height="204">
+          </template>
+        <hr>
+          <div>
+          <table>
+
+            <caption>Fruit price</caption>
+            <tr>
+              <th>Fruit</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Apple</td>
+              <td>$1</td>
+            </tr>
+            <tr>
+              <td>Banana</td>
+              <td>$0.5</td>
+            </tr>
+          </table>
+        </div>
+
+        <table>
+            <colgroup>
+              <col span="5" style="background-color:greenyellow">
+              <col style="background-color:yellow">
+            </colgroup>
+            <tr>
+              <th>Area</th>
+              <th>Name</th>
+              <th>Price</th>
+            </tr>
+            <tr>
+              <td>Any Place</td>
+              <td>Apple</td>
+              <td>$1</td>
+            </tr>
+            <tr>
+              <td>Tropical Area</td>
+              <td>Pineapple</td>
+              <td>$3</td>
+            </tr>
+        </table>
+
+        <figure>
+            <img src="Paul.png" alt="My Photo" style="width:10%">
+            <figcaption>This is me when I was in high school</figcaption>
+          </figure>
+          
+          
 
 </body>
 </html>
