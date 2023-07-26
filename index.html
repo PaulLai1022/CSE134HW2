@@ -4,106 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
     <title>Paul's Portfolio</title>
-    <style>
-
-       .topRight{
-        position: absolute; 
-        top:8px;
-        right: 10px;
-
-       }
-       h1 {
-        font-size: 40px;
-       }
-
-       h2 {
-        font-size: 25px; 
-       }
-
-       h3 {
-        display:inline;
-       }
-
-       section{
-        -border: 10px solid gray;
-        height: 90vh;
-
-        position: relative;
-
-       }
-
-       .container{
-        -border: 10px solid gray;
-        max-width: 700px;
-        margin:auto;
-
-        height: 20vh;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        top: 0; 
-        margin: auto;
-       }
-
-       .bottom{
-        border: 10px solid gray;
-        max-width: 700px;
-        margin:auto;
-
-        height: 20vh;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        top: 2; 
-        margin: auto;
-
-       }
-
-       .underlineMe {
-            text-decoration: wavy;
-        }
-    
-       
-
-    </style>
 </head>
-
 <body>
-    <section>
-        <header class = "container">
+    <!--Intro-->
+    <!--
+        <div class = "navBar"> 
+            <nav>
+                <a href = "myExperience.html">My Project</a>
+                <a href = "resume.html">My resume</a>
+                <a href = "aboutMe.html">About Me</a>
+            </nav>
+        </div>
+    -->
 
-            <h1>Hi I'm <span class = "underlineMe">Po-Cheng Lai</span>
-                <br>But you can call me <em>Paul</em> 
+        <header>
+
+            <h1>Hi I'm Po-Cheng Lai
+                <br>But you can call me Paul
             </h1>
 
-        <h2>I am a <code>front-end developers</code>
-                <br> <code>& back-end engineers</code>. 
+            <h2>A front-end developers
+                <br> & back-end engineers. 
             </h2> 
-
-            
         </header>  
 
+        <section class = "AboutMe">
+            <div class = "insideContent">
+                <div>
+                    <h3>Self-Introduction</h3>
+                </div>
+                <div class = "Introduction Content">
+                    <p>
+                        Hi my name is Paul Lai and I use Paul as my preferred name. 
+                        <br>I am an enthusasic student with extensive knowledge in front-end area. 
+                        <br>Moreover, I am passionate at researching information and I am always
+                        <br>excited and curious when comes to learn more about new technologies.
+                    </p>
+                </div>
+            </div> 
 
-        <footer class = "bottom"> <!-- css here in the future (align them)-->
-            <h3><a href = "myExperience.html">See my Project</a></h3>
-            <h3><a href = "resume.html">My resume</a></h3>
-            <h3><a href = "aboutMe.html">About Me</a></h3>
+            <div class = "insideContent">
+                <div>
+                    <h3>My Experience</h3>
+                </div>
+                <div class = "Introduction Content">
+                    <p>
+                        Coming...
+                    </p>
+                </div>
+            </div> 
+
+            <div class = "insideContent">
+                <div>
+                    <h3>Contact Me</h3>
+                </div>
+                <div class = "Introduction Content">
+                    <p>
+                        <h3><a href="https://www.instagram.com/paullai1022">Instagram</a></h3>
+                        <h3><a href="https://www.linkedin.com/feed/">Linkedin</a></h3>
+                    </p>
+                </div>
+            </div> 
+
+        </section>  
+
+        <footer>
+            <picture>
+                <img src = "23091.webp" alt = "my school" style="width:128px;height:128px;">
+            </picture>
+           
         </footer>
-    </section>
 
+
+    <!--
     <div class = "topRight">
-        <details> <!--chage to up right corner latter on-->
+        <details> 
             <summary><img src = "listPic.png" alt = "list page" width = 45></summary>
             <ol>
                 <li><h1><a href = index.html>Home</a></h1></li>
@@ -118,8 +95,7 @@
 
         </details>
     </div>
+-->
 
-
-    
 </body>
 </html>

@@ -1,0 +1,65 @@
+/* Global attribute */
+body{
+    font-family:'Open Sans', sans-serif;
+    background-image: url("background.avif");
+
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: 500; 
+}
+
+header{
+    position: relative;
+    padding-top: 2px;
+    text-align: center;
+    background-color: #2B2D42;
+}
+
+header h1{
+    color: white; 
+}
+
+header h2{
+    color: white; 
+    font-family:'cursive', cursive;
+    font-weight: 400;
+}
+
+div h3{
+    font-family:'cursive', cursive;
+    font-weight:700;
+
+
+}
+
+footer{
+    position: relative;
+    left: 50%;
+    -height: 40px;
+
+}
+
+
+
+.insideContent{
+    margin: 0;
+    padding: 0 30px;
+    max-width: 950 px;
+}
+
+.myPhoto{    
+    border-radius: 50%;
+    width:200px;
+    -height: 250px
+}
+
+.insideContent{
+    display: grid;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr 7.0fr;
+    column-gap: 30px;
+}
+
