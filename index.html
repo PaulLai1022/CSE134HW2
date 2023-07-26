@@ -7,45 +7,117 @@
     <title>Paul's Portfolio</title>
     <style>
 
+       .topRight{
+        position: absolute; 
+        top:8px;
+        right: 10px;
+
+       }
+       h1 {
+        font-size: 40px;
+       }
+
+       h2 {
+        font-size: 25px; 
+       }
+
+       h3 {
+        display:inline;
+       }
+
+       section{
+        -border: 10px solid gray;
+        height: 90vh;
+
+        position: relative;
+
+       }
+
+       .container{
+        -border: 10px solid gray;
+        max-width: 700px;
+        margin:auto;
+
+        height: 20vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0; 
+        margin: auto;
+       }
+
+       .bottom{
+        border: 10px solid gray;
+        max-width: 700px;
+        margin:auto;
+
+        height: 20vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 2; 
+        margin: auto;
+
+       }
+
+       .underlineMe {
+            text-decoration: wavy;
+        }
+    
+       
 
     </style>
 </head>
 
 <body>
-    <header>
-        <h1>Hi I am <i><span style = "color:blue">Po-Cheng Lai</span></i>
-            <br>But you can call me <em>Paul</em>
-        </h1>
+    <section>
+        <header class = "container">
+
+            <h1>Hi I'm <span class = "underlineMe">Po-Cheng Lai</span>
+                <br>But you can call me <em>Paul</em> 
+            </h1>
+
         <h2>I am a <code>front-end developers</code>
-            <br> <code>& back-end engineers</code>. 
-        </h2>
-    </header>  
+                <br> <code>& back-end engineers</code>. 
+            </h2> 
 
-    <details> <!--chage to up right corner latter on-->
-        <summary><img src = "listPic.png" alt = "list page" width = 45></summary>
-        <ol>
-            <li><h1><a href = index.html>Home</a></h1></li>
-            <li><h1><a href = aboutMe.html>About Me</a></h1></li>
-            <li><h1><a href = contactMe.html>Contact Me</a></h1></li>
-            <li><h1><a href = testSection.html>Experiment</a></h1></li>
-        </ol>
-        <ul>
-            <li><h3><a href="https://www.instagram.com/paullai1022">Instagram</a></h3></li>
-            <li><h3><a href="https://www.linkedin.com/feed/">Linkedin</a></h3></li>
-        </ul>
-        
-    </details>
+            
+        </header>  
 
-    <hr>
 
-    <footer> <!-- css here in the future (align them)-->
-        <h3><a href = "myExperience.html">See my Project</a></h3>
-        <h3><a href = "resume.html">My resume</a></h3>
-        <h3><a href = "aboutMe.html">About Me</a></h3>
-    </footer>
-    
-    
+        <footer class = "bottom"> <!-- css here in the future (align them)-->
+            <h3><a href = "myExperience.html">See my Project</a></h3>
+            <h3><a href = "resume.html">My resume</a></h3>
+            <h3><a href = "aboutMe.html">About Me</a></h3>
+        </footer>
+    </section>
 
+    <div class = "topRight">
+        <details> <!--chage to up right corner latter on-->
+            <summary><img src = "listPic.png" alt = "list page" width = 45></summary>
+            <ol>
+                <li><h1><a href = index.html>Home</a></h1></li>
+                <li><h1><a href = aboutMe.html>About Me</a></h1></li>
+                <li><h1><a href = contactMe.html>Contact Me</a></h1></li>
+                <li><h1><a href = testSection.html>Experiment</a></h1></li>
+            </ol>
+            <ul>
+                <li><h3><a href="https://www.instagram.com/paullai1022">Instagram</a></h3></li>
+                <li><h3><a href="https://www.linkedin.com/feed/">Linkedin</a></h3></li>
+            </ul>
+
+        </details>
+    </div>
 
 
     
